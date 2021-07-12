@@ -1,0 +1,85 @@
+.bg-content {
+  background-image: url("img/background-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+}
+.trans-box {
+  background-color: rgba(42, 51, 77, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: inherit;
+  width: auto;
+  min-height: 500px;
+  font-family: "Verdana,Geneva,sans-serif";
+}
+.head-title {
+  text-align: center;
+  text-emphasis: none;
+  text-overflow: ellipsis;
+  color: white;
+  width: 650px;
+  height: 100%;
+  position: absolute;
+  right: 6%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+button {
+  outline: none;
+  padding: 5px;
+  text-emphasis: none;
+  text-align: center;
+  border: 0.5px transparent solid;
+  background-color: rgb(151, 169, 189);
+  color: white;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  box-shadow: black;
+}
+button:focus {
+  outline: none;
+  border: transparent;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.trans {
+  background-color: rgb(151, 169, 189, 0.7);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: inherit;
+  width: 100%;
+  min-height: 600px;
+  font-family: "Verdana,Geneva,sans-serif";
+  color: white;
+  text-align: center;
+}
+
+.blank {
+  width: auto;
+  height: 350px;
+}
+.section-card {
+  background-color: rgb(199, 199, 199, 0.2);
+  width: auto;
+  height: 260px;
+  text-align: center;
+}
+.chat-box {
+  margin-top: 260px;
+  color: white;
+  background-color: rgb(121, 149, 180, 0.7);
+  width: auto;
+  height: 380px;
+}
+
+
+
